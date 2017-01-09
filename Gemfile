@@ -49,4 +49,4 @@ end
 gem 'spree', '~> 3.1.0'
 gem 'spree_auth_devise', '~> 3.1.0'
 gem 'spree_gateway', '~> 3.1.0'
-gem 'spree_ams', :github => 'vinsol/spree_ams', :branch => '3-1-stable'
+gem 'spree_ams', :github => 'shubhamgupta/spree_ams', :branch => 'feature/common-fe-routes'
