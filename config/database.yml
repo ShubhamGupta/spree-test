@@ -3,10 +3,5 @@ default: &default
   encoding: unicode
   pool: 5
 
-development:
-  <<: *default
-  database: spree_test_dev
-  username: shubham
-
 production:
   url: <%= ENV['DATABASE_URL'] %>
